@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rivera Adventure Game</title>
+		<link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <!--Between lines 8-12, put the opening of your story-->
+        <a href="./index.html"><div class="title">Spooky Web Dilemma</div></a>
+        <div class="story-opening">
+            
+            <div class="story-message">
+            <h1>Mr. Rivera is about to present todays topic in class but you are feeling the need to go to the restroom.</h1>
+			</div>
+        </div>
+        <!--Change the text of the buttons to the options relevant to your story!-->
+        <div class="buttons" id="choice">
+            <button class="option-one">Ask to go to the bathroom now</button>
+            <button class="option-two">Wait until the presentation is done</button>
+        </div>
+        <!--Between lines 19-22, put the part of the story the user will see if they picked option one-->
+        <div class="option-one-screen">
+			<div class="story-message">
+            <h1>You decided to leave now. Upon entering the bathroom you notice that the stall has a screen on it that says "Please accept EULA before operating." Naturally you scroll past the boring stuff and hit accept to use the stall quickly as this is urgent, right?</h1>
+			</div>
+			
+			<div class="buttons continue-button" id="continue-one-end">
+            <button class="continue">Continue</button>
+		</div>
+			
+        </div>
+		<!-- test this <div class="buttons continue-container">
+            <button class="continue">Continue</button>
+        </div> -->
+		
+        <!--Between lines 24-27, put the part of the story the user will see if they picked option two-->
+        <div class="option-two-screen">
+			<div class="story-message">
+            <h1>You decided to stay in class! Mr. Rivera explained how End User License Agreements (EULA) are really important to read and understand since sometimes there are hidden rules that you dont notice while using a service. After the lesson you go to the bathroom and notice some new technology.</h1>
+			</div>
+			
+			<div class="buttons continue-button" id="continue-two-end">
+            <button class="continue">Continue</button>
+        </div>
+			
+        </div>
+		
+        <!--Between lines 29-32, put the end of the story if the user chose option 1-->
+        <div class="option-one-end">
+			<div class="story-message">
+            <h1>Since you didnt read the EULA, you didnt know that the stall was equipped with an NFC scanner that found your student ID from your card and sent you a 10 dollar bill. This specific stall is not free, who woulda known?!</h1>
+			</div>
+        </div>
+        <!--Between lines 29-32, put the end of the story if the user chose option 2-->
+        <div class="option-two-end">
+            <h1>Luckily you waited and understand that EULAs can be deceiving sometimes. So instead of accepting the EULA you found on the door of the bathroom stall, you decided to try somewhere else. W!</h1>
+            
+        </div>
+		
+		<script src="./script.js"></script>
+
+		
+    </body>
+</html>
